@@ -1,0 +1,9 @@
+.wrapper {
+    background-color: rgb(89, 209, 209);
+}
+
+.hello {
+    font-size: 60px;
+    font-weight: 700;
+    color: red;
+}
