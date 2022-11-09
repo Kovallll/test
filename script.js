@@ -1,2 +1,2 @@
-const name = prompt("Введите имя", "Igor");
-alert(`Привет ${window.name}`)
+const nameStud = prompt("Введите имя", "Igor");
+alert(`Привет ${nameStud}`)
