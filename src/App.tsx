@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between'}}>
       <div style={{display: 'flex', flexDirection: 'column'}}>
       <h2>isWithTodos</h2>
       <Calendar isWithTodos={true}/>
@@ -20,7 +20,7 @@ function App() {
       </div>
       
       </div>
-      <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between'}}>
       <div style={{display: 'flex', flexDirection: 'column'}}>
       <h2>isWithStartSunday</h2>
       <Calendar isWithStartSunday={true}/>
@@ -34,7 +34,7 @@ function App() {
       <Calendar isWithInput={true}/>
       </div>
       </div>
-      <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between'}}>
       <div style={{display: 'flex', flexDirection: 'column'}}>
       <h2>isWithMinMax</h2>
       <Calendar isWithMinMax={true} minDate={'11/09/2024'} maxDate={'11/10/2024'}/>
